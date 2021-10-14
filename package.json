@@ -1,0 +1,29 @@
+{
+  "name": "MS-Facebook",
+  "version": "1.5.0",
+  "description": "Microservice to integrate the official facebook api.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Renny Jose Luzardo Colina <rennyjoseluzardocolina@gmail.com>",
+  "contributors": ["Enrique Melendez <emelendez@contactvox.com"],
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^4.3.2",
+    "express": "^4.17.1",
+    "fastify": "^3.21.3",
+    "form-data": "^4.0.0",
+    "fs": "0.0.1-security",
+    "http-errors": "^1.8.0",
+    "https": "^1.0.0",
+    "jade": "^1.11.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.13"
+  }
+}
